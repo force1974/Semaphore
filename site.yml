@@ -1,5 +1,5 @@
 ---
-- hosts: my_servers
+- hosts: DreamQ
   become: true
   tasks:
   - name: Print OS info
