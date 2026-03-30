@@ -1,0 +1,7 @@
+---
+- hosts: DreamQ
+  become: true
+  tasks:
+  - name: Print OS info
+    ansible.builtin.packgage:
+      name: apache2
